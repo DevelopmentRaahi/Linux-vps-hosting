@@ -35,3 +35,4 @@ var typed1 = new Typed(".typing2 ", {
   backSpeed: 60,
   loop: true
 });
+
