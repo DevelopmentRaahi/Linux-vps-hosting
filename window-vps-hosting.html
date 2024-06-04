@@ -398,7 +398,7 @@
             </div>
         </div>
 
-        <div class="row py-2  " data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">
+        <div class="row py-2  " data-aos="flip-up" data-aos-offset="200" data-aos-delay="50">
             <div class=" col-lg-4 col-md-6 col-12 g-4">
                 <div class="price_box">
                     <div class="item_center">
@@ -650,7 +650,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row " id="Product_show" >
+        <div class="row " id="Product_show">
             <div class="offset-lg-1 col-lg-10 offset-lg-1 price_head  ">
                 <!-- <p>Choose Your </p> -->
                 <!-- <p>Choose Your <span class="linux">Linux</span></p> -->
@@ -783,7 +783,7 @@
 
     <!-- Popular  uses of VPS Hosting -->
 
-    <div class="popular-main" data-aos="zoom-in" data-aos-offset="150" data-aos-delay="100">
+    <div class="popular-main" data-aos="fade-up"   data-aos-anchor-placement="center-bottom">
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
@@ -793,7 +793,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row" >
                     <div class="col-md-4">
                         <div class="main_box">
                             <div class="heading-one">
@@ -946,7 +946,7 @@
     <!-- 20 days offer -->
     <div class="container-fluid offer_section_bg">
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-5" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50">
                 <div class="offset-md-1 col-lg-10 offset-md-1">
                     <div class="main_box">
                         <h2>7-Days Money-Back Guarantee</h2>
@@ -1043,7 +1043,7 @@
 
     <!-- faq section -->
     <div class="container py-3">
-        <div class="row p-2">
+        <div class="row p-2" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50">
             <div class="offset-sm-1 offset-lg-1 col-lg-10 col-sm-10 offset-lg-1 offset-sm-1 price_end">
                 <div>
                     <h4>Window VPS Hosting Plans FAQs</h4>
@@ -1285,11 +1285,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init({
-        disable: 'phone', 
-            offset: 180,
-            duration: 700,
+
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                disable: 'phone',
+                offset: 150,
+                duration: 700,
+            });
         });
+
     </script>
 
 
