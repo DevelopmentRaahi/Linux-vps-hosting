@@ -540,11 +540,17 @@ $des_heading_color: #5b72a0;
         text-align: center;
         border: 1px solid rgba(128, 128, 128, 0.303);
         height: 100%;
-        transition: box-shadow 0.4s ease;
+        transition: box-shadow, background-color 0.4s ease;
+        background-color: #ecf2f6;
+
         
         &:hover{
             box-shadow: 0 0 7px rgba(0, 0, 0, 0.10);
-            transition: box-shadow 0.3s ease;
+            transition: box-shadow,background-color 0.3s ease;
+            background-color: #fff;
+            img{
+                opacity: 1;
+            }
         }
 
         .heading-one{
