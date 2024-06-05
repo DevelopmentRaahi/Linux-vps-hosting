@@ -180,6 +180,37 @@ $one_two_three_color :rgb(255 89 18);
     }
 }
 
+//linux window btn
+.linux_window_btn{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem;
+ .main-button{    
+         a{
+            margin-inline: 0.7rem;
+            text-decoration: none;
+            font-size: 1.4rem;
+            // background-color: #fab400;
+            padding: 0.4rem 1rem;
+            border: 1px solid #003666;
+            color: #003666;
+            border-radius: 0.3rem;
+            i{
+                padding-inline: 0.3rem;
+            }
+            &:not(:first-child){
+                background-color: #003666;
+                color: #fff;
+            }
+            &:hover{
+                background-color: #fab400;
+                color: #fff;
+                // border: none;
+                border:1px solid transparent;
+            }
+         } 
+   }   
+}
 
 .title_heading {
     h4 {
