@@ -452,6 +452,9 @@ body {
   .main-title div {
     font-size: 1.7rem !important;
   }
+  .heading-one img {
+    animation: none;
+  }
   .main_box {
     padding: 1.3rem 1rem;
   }
