@@ -502,7 +502,7 @@ $des_heading_color: #5b72a0;
         padding: 0;
 
         li {
-            font-size: 1.4rem !important;
+            font-size: 1.1rem !important;
 
             i {
                 font-size: 1.6rem;
@@ -593,7 +593,11 @@ $des_heading_color: #5b72a0;
     
 }
 @media screen and (max-width: 600px) {
-
+    .main_box{
+        p{
+            text-align: center;
+        }
+    }
     .main-title{
         margin: 0 0 1rem 0;
         div{

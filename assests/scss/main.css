@@ -363,7 +363,7 @@ body {
   padding: 0;
 }
 .price_box .price_specs li {
-  font-size: 1.4rem !important;
+  font-size: 1.1rem !important;
 }
 .price_box .price_specs li i {
   font-size: 1.6rem;
@@ -446,6 +446,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .main_box p {
+    text-align: center;
+  }
   .main-title {
     margin: 0 0 1rem 0;
   }
