@@ -245,10 +245,10 @@ h1 h2 h3 h4 h5 h6{
     
 }
 .logo-content ul{
-  padding-top: 1.2rem;
+  padding: 02rem .4rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
