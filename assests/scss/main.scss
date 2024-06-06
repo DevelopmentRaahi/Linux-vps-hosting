@@ -540,11 +540,17 @@ $des_heading_color: #5b72a0;
         text-align: center;
         border: 1px solid rgba(128, 128, 128, 0.303);
         height: 100%;
-        transition: box-shadow 0.4s ease;
+        transition: box-shadow, background-color 0.4s ease;
+        background-color: #ecf2f6;
+
         
         &:hover{
             box-shadow: 0 0 7px rgba(0, 0, 0, 0.10);
-            transition: box-shadow 0.3s ease;
+            transition: box-shadow,background-color 0.3s ease;
+            background-color: #fff;
+            img{
+                opacity: 1;
+            }
         }
 
         .heading-one{
@@ -558,8 +564,7 @@ $des_heading_color: #5b72a0;
                 margin: 0.7rem auto;
                 display: block;
                 opacity: 0.7;
-                transition: all 0.5s linear;
-                
+                transition: all 0.5s linear;                
                 animation: motionUp 1s ease-in 1s infinite ;
 
                 &:hover{
@@ -588,10 +593,19 @@ $des_heading_color: #5b72a0;
     
 }
 @media screen and (max-width: 600px) {
+
     .main-title{
         margin: 0 0 1rem 0;
         div{
             font-size: 1.7rem !important;           
+        }
+
+    }
+    
+    .heading-one{
+        img{
+
+            animation: none;
         }
     }
     .main_box{
