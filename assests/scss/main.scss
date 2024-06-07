@@ -99,7 +99,7 @@ $one_two_three_color :rgb(255 89 18);
 
 .main_heading-1 {
     .one {
-        font-size: 3rem;
+        font-size: 2rem;
         // text-align: center;
         font-weight: 700;
     }
@@ -178,6 +178,23 @@ $one_two_three_color :rgb(255 89 18);
 
 
     }
+}
+@media screen and (max-width: 776px) {
+    .first_section{
+        h2{
+            font-size: 3rem;
+        }
+    }
+   .second_image{
+
+        img {   
+                
+                width: 100% !important;
+                // border-radius: 1rem;
+                 // box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
+                
+                }
+    } 
 }
 
 //linux window btn
@@ -350,7 +367,7 @@ $des_heading_color: #5b72a0;
         p {
             padding: 0rem 0rem 0rem 0.5rem;
             text-align: left;
-            line-height: 2.5rem;
+            // line-height: 2.5rem;
             font-size: 1.5rem;
         }
     }
@@ -502,7 +519,7 @@ $des_heading_color: #5b72a0;
         padding: 0;
 
         li {
-            font-size: 1.4rem !important;
+            font-size: 1.2rem !important;
 
             i {
                 font-size: 1.6rem;
@@ -516,8 +533,8 @@ $des_heading_color: #5b72a0;
 }
 // popular part 
 .popular-main{
-    padding: 4rem 0;
-    margin: 2rem 0rem;
+    padding: 0rem 0;
+    margin: 0rem 0rem;
     // background-color: rgba(255, 0, 0, 0.051);
     .main-title{
         margin: 1rem 0 2rem 0;
@@ -555,7 +572,7 @@ $des_heading_color: #5b72a0;
 
         .heading-one{
             display: block;
-            font-size: 2.2rem;
+            font-size: 2rem;
             font-weight: 600;
             color: #50205c;
             img{
@@ -585,8 +602,8 @@ $des_heading_color: #5b72a0;
             }
         }
         p{
-           font-size: 1.4rem; 
-           line-height: 2.5rem;
+           font-size: 1.3rem; 
+           line-height: 2rem;
         }
         
     }
@@ -1100,4 +1117,55 @@ $add_cart_color: #4e84c6;
             color: #fff;
         }
     }
+}
+
+//whatsap chat
+.whatsap_button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  transition: all 0.5s;
+  z-index: 300;
+  &:hover {
+    opacity: 1;
+    transition: all 0.5s;
+  }
+
+  .float {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    left: 16px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 300;
+    display: grid;
+    filter: grayscale(100);
+
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+  .call_icon {
+    transition: all 0.5s;
+    background-color: #0787bd;
+    &:hover {
+      .bi-telephone-fill {
+        transform: rotate(135deg);
+        transition: all 0.5s;
+      }
+    }
+  }
+  .top-1 {
+    bottom: 80px;
+  }
+  .my-float {
+    align-self: center;
+  }
 }
