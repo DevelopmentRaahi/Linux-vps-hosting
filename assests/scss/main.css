@@ -450,6 +450,7 @@ body {
 .popular-main .main_box p {
   font-size: 1.3rem;
   line-height: 2rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
