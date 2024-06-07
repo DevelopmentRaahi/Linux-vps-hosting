@@ -245,7 +245,7 @@ h1 h2 h3 h4 h5 h6{
     
 }
 .logo-content ul{
-  padding-top: 1.2rem;
+  padding: 0.3rem 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
